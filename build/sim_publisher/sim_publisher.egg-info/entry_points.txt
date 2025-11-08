@@ -1,0 +1,4 @@
+[console_scripts]
+simple_campub = sim_publisher.simple_campub:main
+simple_simpub = sim_publisher.simple_simpub:main
+
