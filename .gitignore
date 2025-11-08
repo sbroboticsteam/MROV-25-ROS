@@ -1,0 +1,7 @@
+# ignore directories build from colcon build
+build/
+install/
+log/
+# ignore pychace stuff
+*.pyc
+**/__pycache__/
