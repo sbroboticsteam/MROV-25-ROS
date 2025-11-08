@@ -1,0 +1,6 @@
+[console_scripts]
+simple_simpub = widget_test.simple_simpub:main
+
+[rqt_gui_py.plugins]
+WidgetTemplate = widget_test.widget_template:WidgetTemplate
+

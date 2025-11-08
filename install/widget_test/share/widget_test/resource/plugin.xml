@@ -1,0 +1,14 @@
+<library path="widget_test">
+  <class name="WidgetTemplate" 
+         type="widget_test.widget_template.WidgetTemplate" 
+         base_class_type="rqt_gui_py::Plugin">
+    <description>
+      Template Plugin showing three different example widgets
+    </description>
+    <qtgui>
+      <label>ROS 2 Widget Template</label>
+      <icon type="theme">camera-video</icon>
+      <statustip>Displays multiple ROS 2 widgets in tabs using rclpy and Qt.</statustip>
+    </qtgui>
+  </class>
+</library>
