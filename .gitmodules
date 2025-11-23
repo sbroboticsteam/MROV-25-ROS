@@ -1,0 +1,6 @@
+[submodule "src/MROV-25-ROS-ROV"]
+	path = src/MROV-25-ROS-ROV
+	url = git@github.com:sbroboticsteam/MROV-25-ROS-ROV.git
+[submodule "src/MROV-25-ROS-OPERATOR"]
+	path = src/MROV-25-ROS-OPERATOR
+	url = git@github.com:sbroboticsteam/MROV-25-ROS-OPERATOR.git
