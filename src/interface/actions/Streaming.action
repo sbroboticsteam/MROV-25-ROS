@@ -1,0 +1,19 @@
+# goal
+string encoding
+uint32 width
+uint32 height
+uint32 framerate
+
+---
+# result
+bool success
+string message
+uint64 total_frames_sent
+
+---
+# feedback
+uint64 frames_sent
+float32 current_fps
+string pipeline_status
+float32 cpu_percent
+float32 memory_mb
