@@ -14,7 +14,8 @@ find_package(action_msgs REQUIRED)
 find_package(unique_identifier_msgs REQUIRED)
 
 rosidl_generate_interfaces(${PROJECT_NAME}
-  "actions/Mapping.action"
+  "action/Mapping.action"
+  "action/Streaming.action"
   DEPENDENCIES action_msgs unique_identifier_msgs
 )
 
