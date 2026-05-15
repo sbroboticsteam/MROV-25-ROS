@@ -1,5 +1,19 @@
-int32 order
+# goal
+string encoding
+uint32 width
+uint32 height
+uint32 framerate
+
 ---
-int32[] sequence
+# result
+bool success
+string message
+uint64 total_frames_used
+
 ---
-uint16 frames
+# feedback
+uint64 frames_used
+float32 current_fps
+string pipeline_status
+float32 cpu_percent
+float32 memory_mb
